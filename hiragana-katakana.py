@@ -9,13 +9,13 @@ import time
 
 
 # HARD WORK
-print('welcome to hiragana quiz! are u ready??')
+print('welcome to hiragana-katakana quiz! are u ready??')
 input('press enter to start...')
 print()
 
 start=time.time()
 
-fhand=open('hiragana.txt', encoding='utf8')
+fhand=open('hiragana-katakana.txt', encoding='utf8')
 line=fhand.readline()
 chara=line.split()
 tot=len(chara)
